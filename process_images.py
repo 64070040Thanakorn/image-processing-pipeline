@@ -43,7 +43,7 @@ def main(args):
     detector = cv2.CascadeClassifier(args.classifier)
 
     # list images from input directory
-    input_image_files = list_images(args.input, (".jpg", ".png"))
+    input_image_files = list_images(args.input, (".jpg", ".png", ".jpeg", ".webp"))
 
     # Storage for JSON summary
     summary = {}
