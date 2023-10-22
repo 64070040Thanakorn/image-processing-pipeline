@@ -15,8 +15,13 @@ or update the environment if you `git pull` the repo:
 
     $ conda env update -f environment.yml
 
-## Getting started
+or update the environment if you `git pull` the repo:
 
+    $ conda env update -f environment.yml
+
+## Getting started
+    $ git checkout 77c19422f0d7a90f1541ff81782948e9a12d2519
+    $ python process_images.py --input assets/images -os output.json
 For detailed description read the Medium stories in order:
 * [Modular image processing pipeline using OpenCV and Python generators](https://medium.com/deepvisionguru/modular-image-processing-pipeline-using-opencv-and-python-generators-9edca3ccb696)
 * [Video processing pipeline with OpenCV](https://medium.com/deepvisionguru/video-processing-pipeline-with-opencv-ac10187d75b)
